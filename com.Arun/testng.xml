@@ -1,0 +1,16 @@
+
+<suite name="Suite">
+	<groups>
+		<run>
+			<include name = "regressiontest"/>
+			
+		</run>
+	</groups>
+	
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.actitime.testscript.CustomerModule"/>
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
